@@ -5,7 +5,7 @@
  */
 package game.test;
 
-import game.player.jugador;
+import game.player.Jugador;
 
 /**
  *
@@ -18,8 +18,7 @@ public class test {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        jugador jugador1 = new jugador("Edy Rolando",45);
-        System.out.println(jugador1.getNombre());
+      
     }
     
 }

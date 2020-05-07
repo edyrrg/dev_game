@@ -5,11 +5,11 @@
  */
 package game.player;
 
-public class jugador {
+public class Jugador {
     private String nombre;
     private int money;
     
-    public jugador(String nombre, int money){
+    public Jugador(String nombre, int money){
         this.money = money;
         this.nombre = nombre;
     }
