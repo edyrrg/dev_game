@@ -30,4 +30,28 @@ public class Jugador {
         this.money = money;
     }
     
+    public void lanzarDados(){
+        
+    }
+    
+    public void visualizarPropiedades(){
+        
+    }
+    
+    public void hipotecarPropiedad(){
+        
+    }
+    
+    public void construirEdificioPropiedad(){
+        
+    }
+    
+    public void declararBancarrota(){
+        
+    }
+    
+    public void terminarTurno(){
+        
+    }
+    
 }

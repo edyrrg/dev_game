@@ -3,14 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package game.propiedades;
+package game.casillas;
 
 import game.player.Jugador;
 
-/**
- *
- * @author edyrrg
- */
+
 public class Propiedad {
     private String nombrePropiedad;
     private Jugador Dueño;

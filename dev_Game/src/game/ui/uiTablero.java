@@ -5,15 +5,13 @@
  */
 package game.ui;
 
-/**
- *
- * @author edyrrg
- */
+
 public class uiTablero extends javax.swing.JFrame {
 
     /**
      * Creates new form uiTablero
      */
+    
     public uiTablero() {
         initComponents();
     }
@@ -27,40 +25,80 @@ public class uiTablero extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel1 = new javax.swing.JPanel();
+        DialogCreateGame = new javax.swing.JDialog();
+        jMenuBar2 = new javax.swing.JMenuBar();
+        Menu_1 = new javax.swing.JMenu();
+        Menu_2 = new javax.swing.JMenu();
+        SubMenu_1 = new javax.swing.JMenuItem();
+        SubMenu_2 = new javax.swing.JMenuItem();
+        SubMenu_3 = new javax.swing.JMenuItem();
+        Menu_3 = new javax.swing.JMenu();
+        Menu_4 = new javax.swing.JMenu();
+        Menu_5 = new javax.swing.JMenu();
+
+        javax.swing.GroupLayout DialogCreateGameLayout = new javax.swing.GroupLayout(DialogCreateGame.getContentPane());
+        DialogCreateGame.getContentPane().setLayout(DialogCreateGameLayout);
+        DialogCreateGameLayout.setHorizontalGroup(
+            DialogCreateGameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 400, Short.MAX_VALUE)
+        );
+        DialogCreateGameLayout.setVerticalGroup(
+            DialogCreateGameLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 300, Short.MAX_VALUE)
+        );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
-        jPanel1.setLayout(jPanel1Layout);
-        jPanel1Layout.setHorizontalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 641, Short.MAX_VALUE)
-        );
-        jPanel1Layout.setVerticalGroup(
-            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 424, Short.MAX_VALUE)
-        );
+        Menu_1.setText("Editar Juego");
+        Menu_1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                Menu_1MouseClicked(evt);
+            }
+        });
+        jMenuBar2.add(Menu_1);
+
+        Menu_2.setText("Jugar");
+
+        SubMenu_1.setText("Nuevo");
+        Menu_2.add(SubMenu_1);
+
+        SubMenu_2.setText("Guardar");
+        Menu_2.add(SubMenu_2);
+
+        SubMenu_3.setText("Cargar");
+        Menu_2.add(SubMenu_3);
+
+        jMenuBar2.add(Menu_2);
+
+        Menu_3.setText("Crear Juego");
+        jMenuBar2.add(Menu_3);
+
+        Menu_4.setText("Ranking");
+        jMenuBar2.add(Menu_4);
+
+        Menu_5.setText("Acerca de...");
+        jMenuBar2.add(Menu_5);
+
+        setJMenuBar(jMenuBar2);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGap(0, 765, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGap(0, 400, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void Menu_1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_Menu_1MouseClicked
+        // TODO add your handling code here:
+        DialogCreateGame.setVisible(true);
+    }//GEN-LAST:event_Menu_1MouseClicked
 
     /**
      * @param args the command line arguments
@@ -98,6 +136,15 @@ public class uiTablero extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JPanel jPanel1;
+    private javax.swing.JDialog DialogCreateGame;
+    private javax.swing.JMenu Menu_1;
+    private javax.swing.JMenu Menu_2;
+    private javax.swing.JMenu Menu_3;
+    private javax.swing.JMenu Menu_4;
+    private javax.swing.JMenu Menu_5;
+    private javax.swing.JMenuItem SubMenu_1;
+    private javax.swing.JMenuItem SubMenu_2;
+    private javax.swing.JMenuItem SubMenu_3;
+    private javax.swing.JMenuBar jMenuBar2;
     // End of variables declaration//GEN-END:variables
 }

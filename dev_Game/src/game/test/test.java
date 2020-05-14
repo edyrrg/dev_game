@@ -7,10 +7,7 @@ package game.test;
 
 import game.player.Jugador;
 
-/**
- *
- * @author edyrrg
- */
+
 public class test {
 
     /**
